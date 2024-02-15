@@ -161,8 +161,6 @@ const MainPage: React.FC = () => {
             <ImageAsset name={'list'} size={20} fill={'red'} />
           </View>
         </View>
-
-        {/*<ProductCard />*/}
         {isLoading ? (
           <ActiveIndicator size="large" />
         ) : (
